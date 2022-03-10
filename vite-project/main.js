@@ -1,6 +1,6 @@
 import './style.css'
 
-module.exports = function (eleventyConfig) {
+/* module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy("src/style");
   eleventyConfig.addPassthroughCopy("src/md");
   eleventyConfig.addPassthroughCopy("src/media");
@@ -10,4 +10,5 @@ module.exports = function (eleventyConfig) {
       output: "dist",
     },
   };
-};
+}; */
+
