@@ -1,5 +1,14 @@
 @import url(variables.css);
 
 body {
-  background-color: var(--yellow);
+  background-color: var(--background);
+}
+
+h1{
+  color: var(--darkgrey);
+  font-size: var(--h1);
+  font-family: 'Scope One', serif;
+  text-align: center;
+  border: solid var(--pink) 1rem;
+  border-radius: 1rem;
 }
