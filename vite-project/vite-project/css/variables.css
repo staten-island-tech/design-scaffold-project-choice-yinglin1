@@ -1,0 +1,45 @@
+body,
+html,
+*{
+  margin:0;
+  padding: 0;
+  font-size: 10px;
+  box-sizing: 10px;
+};
+
+:root {
+    --yellow: rgb(0,0,0);
+
+    --background: var(--yellow);
+}
+   /*  --border: var(--pastel-green);
+    --card: var(--pastel-blue);
+    --header: var(--header-purple);
+    --black: var(--black);
+    --btn: var(--pastel-yellow);
+    --names: var(--title-darker-purple);
+
+    --h1: 9rem;
+    --h2: 2.3rem;
+    --h3: 1.5rem;
+}
+
+.dark{
+    --background: var(--pastel-pink);
+    --border: var(--pastel-green);
+    --card: var(--pastel-blue);
+    --header: var(--header-purple);
+    --black: var(--black);
+    --btn: var(--pastel-yellow);
+    --names: var(--title-darker-purple);
+}
+
+.bright{
+    --background: var(--bright-pink);
+    --border: var(--bright-green);
+    --card: var(--bright-blue);
+    --header: var(--bright-purple);
+    --black: var(--black);
+    --btn: var(--bright-yellow);
+    --names: var(--black);
+} */
