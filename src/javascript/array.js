@@ -1,4 +1,4 @@
-/* let qwerty = [
+let qwerty = [
     {
         name: "pomeranian",
         type: "poster",
@@ -33,4 +33,3 @@ let discount = qwerty.map((sale) => ({
 }));
 
 export { qwerty, discount };
- */
