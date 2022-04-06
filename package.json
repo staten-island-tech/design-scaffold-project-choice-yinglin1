@@ -1,7 +1,6 @@
 {
   "name": "design-scaffold-project-choice-yinglin1",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "build": "eleventy",
