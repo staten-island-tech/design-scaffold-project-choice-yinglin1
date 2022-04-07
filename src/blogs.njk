@@ -12,14 +12,18 @@
     {% include 'nav.njk'%}
     <section class="section-container">
         <ul class="articles">
+
             {%- for post in collections.post -%}
+
             <article class="article">
+
                 <div class="article-text">
                     <h3 class="article-title">{{post.data.title}}</h3>
                     <h4 class="article-author">By {{post.data.author}}</h4>
                     <a class="article-link" href="{{post.url}}">Contiune Reading</a>
                 </div>
                 <img src="{{post.data.image}}" alt="" class="img-preview">
+
             </article>
             {%- endfor -%}
         </ul>

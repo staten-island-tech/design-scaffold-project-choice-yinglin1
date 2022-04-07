@@ -11,6 +11,7 @@
     --mint: #9af9c8;
     --coral: #f9cc9a;
     --pink: #ffc0cb;
+    --gray: #a3a3a3;
   }
   .light {
     --primary-color: var(--turquoise);
@@ -38,7 +39,8 @@
     font-size: 5rem;
     margin: 0%;
     font-family: "Brush Script MT", cursive;
-    background-color: var(--primary-color);
+    color: var(--gray);
+    background-color: var(--pink);
   }
    
   .buttons {
@@ -93,4 +95,8 @@
   }
    
    
-  
+  .img-preview{
+    width: 50rem;
+    height: 40rem;
+    object-fit: cover;
+  }
