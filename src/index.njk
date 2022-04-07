@@ -4,24 +4,31 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>IDK</title>
+    <title>Document</title>
     <link rel="stylesheet" href="/style/style.css">
 </head>
+
 <body>
-{% include 'nav.njk' %}
-    <header class="header">
-        <div class="header-container">
-            <h1 class="header-title">
-                dogs
-            </h1>
-            <p class="header-desc">pomeranian</p>
-            <p class="header-desc">maltese</p>
-            <p class="header-desc">papillon</p>
-            <p class="header-desc">siberian husky</p>
-            <p class="header-desc">poodle</p>
-        </div>
-        <div class="header-image"></div>
-    </header>
-</body>
+    {% include 'nav.njk' %}
+
+
+
+
+    <body class="light">
+
+        <section class="bigbox">
+            <h1 class="title"> Doggos</h1>
+            <div class="main">
+                <button class="click" id="balloons">click me</button>
+            </div>
+
+
+
+
+            <script type="module" src="./javascript/main.js"></script>
+            <script type="module" src="./javascript/color.js"></script>
+
+        </section>
+    </body>
 
 </html>
