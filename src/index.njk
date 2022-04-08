@@ -8,20 +8,17 @@
     <link rel="stylesheet" href="/style/style.css">
 </head>
 
-<body>
+<body class="light">
     {% include 'nav.njk' %}
+    <section class="bigbox">
+        <h1 class="title"> Doggos</h1>
+        <div class="main">
+            <button class="click" id="balloons">click me</button>
+        </div>
+        <script type="module" src="./javascript/main.js"></script>
+        <script type="module" src="./javascript/color.js"></script>
 
-    <body class="light">
-
-        <section class="bigbox">
-            <h1 class="title"> Doggos</h1>
-            <div class="main">
-                <button class="click" id="balloons">click me</button>
-            </div>
-            <script type="module" src="./javascript/main.js"></script>
-            <script type="module" src="./javascript/color.js"></script>
-
-        </section>
-    </body>
+    </section>
+</body>
 
 </html>

@@ -4,6 +4,7 @@ import { domselector } from "./domselectors";
 function clear() {
   domselector.container.innerHTML = "";
 }
+clear();
 
 //theme filter
 domselector.click.addEventListener("click", function () {
