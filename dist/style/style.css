@@ -7,7 +7,7 @@
   margin-top: 60px;
 }
 :root {
-  --turquoise: #9af9f6;
+  --turquoise: #B5DED1;
   --purple: #d6a8f1;
   --coral: #f9cc9a;
   --pink: #ffc0cb;       
@@ -28,6 +28,7 @@
 
 body {
   text-align: center;
+  background-color: var(--turquoise);
 }
 
 .bigbox {
@@ -104,4 +105,5 @@ body {
 h2{
   color: var(--gray);
   font-family: "Mali", cursive;
+  content:"\2665";
 }
