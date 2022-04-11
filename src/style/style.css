@@ -8,14 +8,14 @@
 }
 :root {
   --turquoise: #9af9f6;
-  --mint: #9af9c8;
+  --purple: #d6a8f1;
   --coral: #f9cc9a;
-  --pink: #ffc0cb;
+  --pink: #ffc0cb;       
   --gray: #6d6d6d;
 }
 .light {
   --primary-color: var(--turquoise);
-  --secondary-color: var(--mint);
+  --secondary-color: var(--purple);
 
   --h1: 5.063rem;
 }
@@ -40,7 +40,7 @@ body {
   margin: 0%;
   font-family: "Mali", cursive;
   color: var(--gray);
-  background-color: var(--pink);
+  
 }
 
 .buttons {
@@ -99,4 +99,9 @@ body {
   width: 50rem;
   height: 40rem;
   object-fit: cover;
+}
+
+h2{
+  color: var(--gray);
+  font-family: "Mali", cursive;
 }
