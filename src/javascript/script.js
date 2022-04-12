@@ -17,13 +17,13 @@ for (let i of switches) {
 
 function setTheme(theme) {
   if (theme == "light") {
-    document.getElementById("switcher-id").href = "./themes/light.css";
+    document.getElementById("switcher-id").href = "./style/light.css";
   } else if (theme == "sky") {
-    document.getElementById("switcher-id").href = "./themes/sky.css";
+    document.getElementById("switcher-id").href = "./style/sky.css";
   } else if (theme == "purple") {
-    document.getElementById("switcher-id").href = "./themes/purple.css";
+    document.getElementById("switcher-id").href = "./style/purple.css";
   } else if (theme == "dark") {
-    document.getElementById("switcher-id").href = "./themes/dark.css";
+    document.getElementById("switcher-id").href = "./style/dark.css";
   }
   localStorage.setItem("style", theme);
 }
