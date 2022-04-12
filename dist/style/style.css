@@ -124,12 +124,12 @@ header {
   --turquoise: #9af9f6;
   --mint: #9af9c8;
   --coral: #f9cc9a;
-  --pink: #ffc0cb;
+  --pink: #ffc0cb;       
   --gray: #6d6d6d;
 }
 .light {
   --primary-color: var(--turquoise);
-  --secondary-color: var(--mint);
+  --secondary-color: var(--purple);
 
   --h1: 5.063rem;
 }
@@ -142,6 +142,7 @@ header {
 
 body {
   text-align: center;
+  background-color: var(--turquoise);
 }
 
 .bigbox {
@@ -154,7 +155,7 @@ body {
   margin: 0%;
   font-family: "Mali", cursive;
   color: var(--gray);
-  background-color: var(--pink);
+  
 }
 
 .buttons {
