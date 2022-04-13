@@ -20,8 +20,8 @@
   --h1: 5.063rem;
 }
 .dark {
-  --background-color: var(--coral);
-  --secondary-color: var(--pink);
+  --background-color: var(--pink);
+  --secondary-color: var(--coral);
 
   --h1: 5.063rem;
 }
@@ -41,7 +41,7 @@ body {
   margin: 0%;
   font-family: "Mali", cursive;
   color: var(--gray);
-  
+  margin-bottom: 1rem;
 }
 
 .buttons {
@@ -67,7 +67,7 @@ body {
   text-align: center;
   background-color: #ae9ad4;
 }
-.item {
+/* .item {
   display: flex;
   justify-content: space-around;
   width: 20%;
@@ -77,16 +77,17 @@ body {
   border: 1px solid black;
   text-align: center;
   background-color: var(--secondary-color);
-}
+} */
 .main {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
+  font-family: "Gochi Hand", cursive;
 }
 .btn {
   width: 10%;
   font-size: 1.2rem;
-  margin: 1rem;
+  margin-left: 1rem;
 }
 #balloons {
   width: 10%;
@@ -103,5 +104,31 @@ body {
 }
 
 h2{
-  color: var(--gray);
+  color: var(--coral);
 }
+
+.article-title{
+  color: var(--coral);
+  font-size: 3rem;
+  margin-bottom: 1.5rem;
+}
+
+.article-author{
+  color: var(--coral);
+  font-size: 1.5rem;
+}
+
+.header-title{
+  color: var(--coral);
+}
+
+.figure-image{
+  width: 50rem;
+  height: 40rem;
+  object-fit: cover;
+  border-radius: 50rem;
+  border-style: double;
+  border-width: 3rem;
+  border-color: var(--coral);
+}
+
