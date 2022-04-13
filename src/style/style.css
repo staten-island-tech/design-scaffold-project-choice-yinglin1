@@ -6,247 +6,15 @@
   color: #2c3e50;
   margin-top: 60px;
 }
-
-* {
-  transition: all 0.3s;
-}
-
-pre {
-  display: inline;
-}
-
-body {
-  font-family: "Open Sans", sans-serif;
-  font-weight: 300;
-  margin: 0;
-  padding: 0;
-
-  &.dark {
-    color: #ccc;
-    background-color: #222;
-  }
-
-  &.teal {
-    background-color: #fff;
-    background: url(https://i.imgur.com/NWzvJmm.png) repeat #fff;
-  }
-}
-
-a {
-  color: #666;
-  text-decoration: none;
-
-  .dark & {
-    color: #ddd;
-  }
-}
-
-.wrapper {
-  width: 90vw;
-  margin: 0 auto;
-  overflow: hidden;
-}
-
-.header {
-  background-color: #eee;
-  padding: 0 2em;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-
-  h1 {
-    color: #666;
-
-    .dark & {
-      color: #fff;
-    }
-  }
-
-  .dark & {
-    background-color: #555;
-  }
-
-  .teal & {
-    opacity: 0;
-  }
-
-  .topNav__links {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap;
-
-    &__link {
-      list-style: none;
-      margin: 0 1em;
-      font-weight: 400;
-
-      &:hover {
-        border-bottom: 1px solid #666;
-        border-top: 1px solid #666;
-      }
-    }
-  }
-}
-.hero {
-  position: relative;
-
-  .overlay {
-    width: 100%;
-    height: 100%;
-    background: -webkit-linear-gradient(
-      top,
-      rgba(0, 0, 0, 0) 0%,
-      rgba(0, 0, 0, 0) 29%,
-      rgba(0, 0, 0, 0.65) 100%
-    );
-    position: absolute;
-    top: 0;
-    left: 0;
-  }
-
-  &__image {
-    width: 100%;
-  }
-
-  &__title {
-    position: absolute;
-    bottom: 0px;
-    width: 80%;
-    padding: 0 10%;
-    margin: 5% auto;
-    text-align: center;
-    font-size: 2em;
-    font-weight: 300;
-    text-shadow: 0 0 20px rgba(0, 0, 0, 1);
-    color: #fff;
-
-    @media (min-width: 400px) {
-      font-size: 3em;
-    }
-
-    @media (min-width: 900px) {
-      font-size: 5em;
-      width: 60%;
-      padding: 0 20%;
-    }
-  }
-
-  .teal & {
-    opacity: 0;
-  }
-}
-
-.switcher {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  margin-top: 2em;
-  flex-wrap: wrap;
-
-  h2 {
-    .teal & {
-      opacity: 0;
-    }
-  }
-}
-
-.content {
-  display: flex;
-  justify-content: space-between;
-  margin: 2em 0;
-  padding: 2em 2em;
-  flex-wrap: wrap;
-  border-bottom: 2px solid #eee;
-  border-top: 2px solid #eee;
-
-  .dark & {
-    border-color: #444;
-  }
-
-  .teal & {
-    opacity: 0;
-  }
-
-  h3 {
-    margin-top: -5px;
-  }
-
-  & > * {
-    flex: 1 1 40%;
-    margin: 0 3em 2em;
-  }
-}
-
-.floatedImage {
-  float: left;
-  margin: 0 1.5em 1.5em 0;
-}
-
-.button {
-  background-color: #4b7094;
-  color: white;
-  border: 0;
-  padding: 1em;
-  border-radius: 4px;
-  font-weight: 800;
-  text-transform: uppercase;
-  font-size: 1em;
-  height: 3em;
-  line-height: 1em;
-
-  &:hover {
-    cursor: pointer;
-    background-color: #333;
-  }
-
-  &.theme1 {
-    background-color: #ddd;
-    color: #4b7094;
-
-    &:hover {
-      background-color: #eee;
-      color: #666;
-    }
-  }
-
-  &.theme3 {
-    background-color: transparent;
-    border: 1px solid #666;
-    color: #000;
-
-    &:hover {
-      background-color: #eee;
-      color: #666;
-    }
-
-    .dark & {
-      color: #fff;
-    }
-  }
-}
-
-.bonus {
-  .newText {
-    height: 2.8em;
-    padding: 0 1em;
-    font-size: 1em;
-    font-weight: 800;
-    border-radius: 4px;
-    margin: 0 0.5em 0.5em 0;
-  }
-}
-
-/* :root {
+:root {
   --turquoise: #9af9f6;
   --mint: #9af9c8;
   --coral: #f9cc9a;
-  --pink: #ffc0cb;       
-  --gray: #6d6d6d;
+  --pink: #ffc0cb;
 }
 .light {
   --primary-color: var(--turquoise);
-  --secondary-color: var(--purple);
+  --secondary-color: var(--mint);
 
   --h1: 5.063rem;
 }
@@ -259,7 +27,6 @@ a {
 
 body {
   text-align: center;
-  background-color: var(--turquoise);
 }
 
 .bigbox {
@@ -270,9 +37,8 @@ body {
   height: 10%;
   font-size: 5rem;
   margin: 0%;
-  font-family: "Mali", cursive;
-  color: var(--gray);
-  
+  font-family: "Brush Script MT", cursive;
+  background-color: var(--primary-color);
 }
 
 .buttons {
@@ -296,7 +62,7 @@ body {
   justify-content: space-evenly;
 
   text-align: center;
-  background-color: #ae9ad4;
+  /* background-color: #ae9ad4; */
 }
 .item {
   display: flex;
@@ -324,12 +90,4 @@ body {
   font-size: 1.2rem;
   margin: 1rem;
   background-color: #fff0f5;
-  font-family: "Gochi Hand", cursive;
 }
-
-.img-preview {
-  width: 50rem;
-  height: 40rem;
-  object-fit: cover;
-}
- */
