@@ -101,21 +101,28 @@ body {
   width: 50rem;
   height: 40rem;
   object-fit: cover;
+  border-style:  dotted double;
+  border-width: 1.8rem;
+  border-color: var(--coral);
+  margin-top: 1rem;
 }
 
 h2{
   color: var(--coral);
+  margin-top: 2rem;
 }
 
 .article-title{
   color: var(--coral);
   font-size: 3rem;
-  margin-bottom: 1.5rem;
+  margin-bottom: 2rem;
+  font-family: "Gochi Hand", cursive;
 }
 
 .article-author{
   color: var(--coral);
   font-size: 1.5rem;
+  font-family: "Gochi Hand", cursive;
 }
 
 .header-title{
@@ -132,3 +139,6 @@ h2{
   border-color: var(--coral);
 }
 
+.article-description{
+  color: var(--gray);
+}
