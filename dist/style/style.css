@@ -142,3 +142,9 @@ h2{
 .article-description{
   color: var(--gray);
 }
+
+.text{
+  color: var(--coral);
+  font-family: "Gochi Hand", cursive;
+  font-size: 1.5rem;
+}
