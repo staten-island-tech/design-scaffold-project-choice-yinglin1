@@ -20,15 +20,15 @@
   --h1: 5.063rem;
 }
 .dark {
-  --background-color: var(--pink);
-  --secondary-color: var(--coral);
+  --primary-color: var(--pink);
+  --secondary-color: var(--gray);
 
   --h1: 5.063rem;
 }
 
 body {
   text-align: center;
-  background-color: var(--turquoise);
+ 
 }
 
 .bigbox {
