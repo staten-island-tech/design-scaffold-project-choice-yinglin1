@@ -20,7 +20,7 @@
   --h1: 5.063rem;
 }
 .dark {
-  --background-color: var(--pink);
+  --primary-color: var(--pink);
   --secondary-color: var(--coral);
 
   --h1: 5.063rem;
