@@ -12,7 +12,11 @@
   --coral: #FFF3C9;
   --pink: #DC9696;       
   --gray: #A8A4A4;
+
+  --primary-color: var(--turquoise);
+  --secondary-color: var(--coral);
 }
+
 .light {
   --primary-color: var(--turquoise);
   --secondary-color: var(--coral);
@@ -28,19 +32,18 @@
 
 body {
   text-align: center;
+  background-color: var(--primary-color);
  
 }
 
-.bigbox {
-  background: var(--primary-color);
-}
+
 .title {
   text-align: center;
   height: 10%;
   font-size: 5rem;
   margin: 0%;
   font-family: "Mali", cursive;
-  color: var(--gray);
+  color: var(--secondary-color);
   margin-bottom: 1rem;
 }
 
@@ -65,19 +68,9 @@ body {
   justify-content: space-evenly;
 
   text-align: center;
-  background-color: #ae9ad4;
+  
 }
-/* .item {
-  display: flex;
-  justify-content: space-around;
-  width: 20%;
-  height: 12rem;
-  transition: all 0.3s ease-in-out;
-  margin-top: 1rem;
-  border: 1px solid black;
-  text-align: center;
-  background-color: var(--secondary-color);
-} */
+
 .main {
   display: flex;
   flex-wrap: wrap;
@@ -103,30 +96,30 @@ body {
   object-fit: cover;
   border-style:  dotted double;
   border-width: 1.8rem;
-  border-color: var(--coral);
+  border-color: var(--secondary-color);
   margin-top: 1rem;
 }
 
 h2{
-  color: var(--coral);
+  color: var(--secondary-color);
   margin-top: 2rem;
 }
 
 .article-title{
-  color: var(--coral);
+  color: var(--secondary-color);
   font-size: 3rem;
   margin-bottom: 2rem;
   font-family: "Gochi Hand", cursive;
 }
 
 .article-author{
-  color: var(--coral);
+  color: var(--secondary-color);
   font-size: 1.5rem;
   font-family: "Gochi Hand", cursive;
 }
 
 .header-title{
-  color: var(--coral);
+  color: var(--secondary-color);
 }
 
 .figure-image{
@@ -136,15 +129,15 @@ h2{
   border-radius: 50rem;
   border-style: double;
   border-width: 3rem;
-  border-color: var(--coral);
+  border-color: var(--secondary-color);
 }
 
 .article-description{
-  color: var(--gray);
+  color: var(--secondary-color);
 }
 
 .text{
-  color: var(--coral);
+  color: var(--secondary-color);
   font-family: "Gochi Hand", cursive;
   font-size: 1.5rem;
 }
