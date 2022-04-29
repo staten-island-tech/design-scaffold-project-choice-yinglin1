@@ -1,0 +1,12 @@
+---
+title: Poodle
+author: YG + IL
+date: 2022-30-03
+tags: ["post", "featured"]
+image: '/media/Poodle.png'
+imageAlt: test
+description: 'POODLES...
+were once used for hunting
+were water retrieval dogs
+their furcoat pattern helped protect vital areas from cold waters.'
+---

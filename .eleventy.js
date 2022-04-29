@@ -14,7 +14,3 @@ module.exports = function (eleventyConfig) {
     },
   };
 };
-module.exports = (config) => {
-  // Copy JavaScript files
-  config.addPassthroughCopy("./src/assets/scripts/");
-};
