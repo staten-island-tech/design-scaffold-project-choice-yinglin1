@@ -8,13 +8,14 @@
     <link rel="stylesheet" href="/style/style.css">
 </head>
 
-<body>
+<body class="bigbox">
     {% include 'nav.njk' %}
     <h1 class="header-title">{{title}}</h1>
     <article class="main-article">
         <img src="{{image}}" alt="{{imageAlt}}" class="figure-image">
         {{content | safe}}
     </article>
+    <h5 class="text">{{description}}</h5>
 
 </body>
 

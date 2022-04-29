@@ -159,7 +159,6 @@ domselector.discount.addEventListener("click", function (e) {
   specific();
 });
 
-//theme filter
 domselector.click.addEventListener("click", function () {
   if (document.body.classList.contains("dark")) {
     document.body.classList.add("light");
