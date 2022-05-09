@@ -30,6 +30,7 @@
   --h1: 5.063rem;
 }
 
+
 body {
   text-align: center;
   background-color: var(--primary-color);
@@ -314,4 +315,47 @@ margin-bottom: 1.3rem;
       margin: 1rem;
     }
 }
+ 
+.container button {
+  color: var(--secondary-color);
+  background: var(--primary-color);
+  padding: 10px 20px;
+  border: 0;
+  border-radius: 5px;
+}
+
+/* The switch - the box around the slider */
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+
+/* Hide default HTML checkbox */
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+/* The slider */
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 40px;
+  width: 40px;
+  left: 0px;
  

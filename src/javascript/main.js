@@ -1,17 +1,31 @@
 import "../style.css";
-import { domselector } from "./domselectors";
 
-function clear() {
-  domselector.container.innerHTML = "";
+
+function setTheme(themeName) {
+  localStorage.setItem('theme', themeName);
+
+  document.documentElement.className = themeName;
 }
-clear();
 
-domselector.click.addEventListener("click", function () {
-  if (document.body.classList.contains("dark")) {
-    document.body.classList.add("light");
-    document.body.classList.remove("dark");
-  } else {
-    document.body.classList.add("dark");
-    document.body.classList.remove("light");
+//toggle between light and dark
+function toggleTheme() {
+  if (localStorage.getItem('theme') === 'dark') {
+    setTheme('light');
   }
-});
+  else {
+    setTheme('dark');
+  }
+}
+
+//invoke function on initial load
+(function () {
+  if (localStorage.getItem('theme') === 'dark') {
+    setTheme('dark');
+
+    document.getElementById('slider').checked = false;
+  } else {
+    setTheme('light');
+
+    document.getElementById('slider').checked = true;
+  }
+})();
