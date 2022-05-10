@@ -18,18 +18,13 @@
             <a href="/blogs/index.html" class="nav-item-desk"> Blog</a>
         </h2>
     </div>
-    <div class="container">
-        <h1>Theme Switcher</h1>
-        <label id="switch" class="switch">
-            <input type="checkbox" onchange="toggleTheme()" id="slider">
-            <span class="slider round"></span>
-        </label>
-        <!-- <button id="switch" onclick="toggleTheme()">Switch</button> -->
+    <div class="toggle-container">
+        <button class="theme-btn light" onclick="setTheme('light')" title="light mode">light</button>
+        <button class="theme-btn dark" onclick="setTheme('dark')" title="dark mode">dark</button>
     </div>
-    <script>
-    </script>
+    <script type="module" src="/src/javascript/main.js"></script>
 </nav>
-<button class="click" id="balloons">Change Theme</button>
+<!-- <button class="click" id="balloons">Change Theme</button> -->
     <h1 class="header-title">Poodle</h1>
     <article class="main-article">
         <img src="/media/Poodle.png" alt="test" class="figure-image">

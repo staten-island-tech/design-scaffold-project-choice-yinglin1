@@ -17,13 +17,13 @@
   --secondary-color: var(--coral);
 }
 
-.light {
+:root.light {
   --primary-color: var(--turquoise);
   --secondary-color: var(--coral);
 
   --h1: 5.063rem;
 }
-.dark {
+:root.dark {
   --primary-color: var(--pink);
   --secondary-color: var(--gray);
 
@@ -34,7 +34,7 @@
 body {
   text-align: center;
   background-color: var(--primary-color);
- 
+  color: var(--secondary-color);
 }
 
 
@@ -86,7 +86,6 @@ body {
   justify-content: space-evenly;
 
   text-align: center;
-  
 }
 
 .main {
@@ -107,6 +106,17 @@ body {
   background-color: #fff0f5;
 
 }
+
+.theme-btn {
+  width: 3em;
+  height: 3em;
+  padding: 0.5em;
+  border-radius: 50%;
+  cursor: pointer;
+  border-color: var(--secondary-color);
+  background-color: transparent;
+}
+
 
 .img-preview {
   width: 50rem;
