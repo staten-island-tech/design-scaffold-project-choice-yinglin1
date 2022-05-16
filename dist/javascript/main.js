@@ -1,8 +1,8 @@
 import "../style.css";
 
-const setTheme = theme => document.documentElement.className = theme;
+/* const setTheme = theme => document.documentElement.className = theme;
 
-/* function setTheme(themeName) {
+function setTheme(themeName) {
   localStorage.setItem('theme', themeName);
 
   document.documentElement.className = themeName;
@@ -29,4 +29,8 @@ function toggleTheme() {
 
     document.getElementById('slider').checked = true;
   }
-})(); */
+})();
+
+
+ */
+
