@@ -17,17 +17,16 @@
   --secondary-color: var(--coral);
 }
 
-:root.light {
+.light {
   --primary-color: var(--turquoise);
   --secondary-color: var(--coral);
 
-  --h1: 5.063rem;
+  
 }
-:root.dark {
+.dark {
   --primary-color: var(--pink);
   --secondary-color: var(--gray);
 
-  --h1: 5.063rem;
 }
 
 
