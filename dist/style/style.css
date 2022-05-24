@@ -55,7 +55,7 @@ p{
   -webkit-animation: fadeIn 3s;
 }
 
-.buttons {
+/* .buttons {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
@@ -66,9 +66,9 @@ p{
   font-size: 1.2rem;
   margin: 1rem;
   background-color: #fff0f5;
-}
+} */
 
-.container {
+/* .container {
   margin-top: 0rem;
   display: flex;
   flex-wrap: wrap;
@@ -77,14 +77,14 @@ p{
 
   text-align: center;
 }
-
-.main {
+ */
+/* .main {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
   font-family: "Gochi Hand", cursive;
-}
-.btn {
+} */
+/* .btn {
   width: 10%;
   font-size: 1.2rem;
   margin-left: 1rem;
@@ -105,7 +105,7 @@ p{
   cursor: pointer;
   border-color: var(--secondary-color);
   background-color: transparent;
-}
+} */
 
 .article{
   background-color: var(--secondary-color);
