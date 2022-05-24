@@ -112,18 +112,21 @@ p{
   background-color: var(--secondary-color);
   margin-left: -2rem;
  
+
 }
 
 .img-preview {
-  width: 50rem;
-  height: 40rem;
+  width: 45rem;
+  height: 35rem;
   object-fit: cover;
-  border-style:  dotted double;
+  /* border-style:  dotted double;
   border-width: 1.8rem;
-  border-color: var(--secondary-color);
+  border-color: var(--secondary-color); */
   margin-top: 1rem;
-transition: all 0.4s;
+/* transition: all 0.4s; */
 
+  border-radius: 4px;
+  padding: 5px;
 }
 
 /* .img-preview:hover{
@@ -134,12 +137,16 @@ transition: all 0.4s;
 
 
 .article-title{
-  color: var(--primary-color);
+  color: var(--secondary-color);
   font-size: 5rem;
- 
+ background-color:var(--primary-color) ;
+ border-style:   double;
+  border-width: 1.8rem;
+  border-color: var(--secondary-color);
   margin-bottom: 1.5rem;
   font-family: "Gochi Hand", cursive;
   text-align: center;
+  text-shadow: 7px 3px 0px #7A7A7A;
 }
 
 .article-author{
@@ -148,6 +155,7 @@ transition: all 0.4s;
   font-family: "Gochi Hand", cursive;
   margin-top: -1.3rem;
   margin-bottom: 2.5rem;
+  text-shadow: 4px 3px 0px #f1a8a8;
 }
 
 .header-title{
@@ -204,13 +212,14 @@ margin-top: -2rem;
 
 .desk{
   background-color: var(--secondary-color);
-  width: 100%;
+  width: 99.5%;
   margin-bottom: 2rem;
+  margin-left: 0.5rem;
   z-index: 2;
   height: 6vh;
   display: flex;
   justify-content: flex-end;
-  
+
 }
 
 
@@ -264,17 +273,6 @@ h2{
   font-size: 3rem;
   text-shadow: 7px 3px 0px #7A7A7A;
 
-  /* color: var(--secondary-color);
-  margin-top: 2.6rem;
-  margin-bottom: 2rem;
-  text-shadow: 4px 3px 0px #7A7A7A;
-  position: absolute;
-  top: 50%;
-  width: 10rem;
-  text-align: center;
-  margin-left: 41rem;
-  margin-right: -43rem;
-  font-size: 2rem; */
 }
    .home-img{
 justify-content: center;
@@ -301,18 +299,7 @@ filter: blur(0.5rem);
   animation: fadein linear 1.3s;
   -webkit-animation: fadeIn linear 1.3s;
   font-size: 12rem;
-    /* text-align: center;
-    height: 10%;
-    font-size: 10rem;
-    margin-left: 29rem;
-    margin-right: -35rem;
-margin-top: -12rem;
-    font-family: "Mali", cursive;
-    color: var(--secondary-color);
-    margin-bottom: 1rem;
-  
-    animation: fadein linear 1.3s;
-    -webkit-animation: fadeIn linear 1.3s; */
+ 
   }
   
   
@@ -325,7 +312,7 @@ margin-top: -12rem;
    
   }
 
-@media screen and (max-width: 800px) {
+/* @media screen and (max-width: 800px) {
   .article-text {
     font-size:2rem;
     text-align: center;
@@ -404,10 +391,12 @@ margin-top: 1rem;
     font-size: 1.6rem;
     margin-right: 3.5rem;
     margin-left: -4.7rem;
+    
   }
   .desk{
     width: 36.8rem;
   }
+  
   .home-img{
     justify-content: center;
     height: 30rem;
@@ -505,50 +494,8 @@ margin-bottom: 1.3rem;
     .title{
       margin-left: 1.5rem;
     }
-}
+} */
  
-.container button {
-  color: var(--secondary-color);
-  background: var(--primary-color);
-  padding: 10px 20px;
-  border: 0;
-  border-radius: 5px;
-}
 
-/* The switch - the box around the slider */
-.switch {
-  position: relative;
-  display: inline-block;
-  width: 60px;
-  height: 34px;
-}
-
-/* Hide default HTML checkbox */
-.switch input {
-  opacity: 0;
-  width: 0;
-  height: 0;
-}
-
-/* The slider */
-.slider {
-  position: absolute;
-  cursor: pointer;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background-color: #ccc;
-  -webkit-transition: 0.4s;
-  transition: 0.4s;
-}
-
-.slider:before {
-  position: absolute;
-  content: "";
-  height: 40px;
-  width: 40px;
-  left: 0px;
-}
 
 
