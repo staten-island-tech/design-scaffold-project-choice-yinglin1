@@ -208,11 +208,12 @@ text-shadow: 7px 3px 0px #7A7A7A;
   margin: 0 -.25rem;
   padding: 0 .25rem;
   transition: color .5s ease-in-out, box-shadow .5s ease-in-out;
-  font-size: 1.8rem;
+  font-size: 2rem;
   font-weight: bold; 
-text-shadow: 2px 1px 0px var(--gray);
+text-shadow: 2px 1px 0px var(--primary-color);
   text-decoration: none;
   font-family: "Gochi Hand", cursive;
+  margin-left: 1.5rem;
 }
 .article-link:hover {
   box-shadow: inset 240px 0 0 0 var(--pink);
