@@ -10,8 +10,8 @@
 :root {
   --turquoise: #B5DED1;
   --coral: #FFF3C9;
-  --pink: #DC9696;       
-  --gray: #A8A4A4;
+  --pink: #e7b7b7;       
+  --gray: #b7b1b1;
 
   --primary-color: var(--turquoise);
   --secondary-color: var(--coral);
@@ -34,17 +34,23 @@
 .btn:visited{
   text-transform: uppercase;
   text-decoration: none;
-  padding: 1.5rem 4rem;
+  padding: 0.9rem 1.7rem;
   display: inline-block;
   margin: 1rem;
-  font-size: 2rem;
+  font-size:1rem;
   border:none;
-  border-radius: 10rem;
+  border-radius: 1rem;
   transition: all 0.2s;
+margin-top: -0.08rem;
+margin-top: 0.2rem;
+  margin-right: 5rem;
+  font-weight: bold;
+  color: var(--secondary-color);
+  background-color: var(--primary-color);
 }
 .btn:hover{
   transform: translateY(-2px);
-  box-shadow: 0 10px 0.5rem black;
+  box-shadow: 0 10px 0.5rem rgb(87, 85, 85);
 }
 
 body {
