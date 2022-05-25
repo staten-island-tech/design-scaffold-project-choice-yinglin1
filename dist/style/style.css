@@ -146,7 +146,8 @@ p{
   border-color: var(--secondary-color); */
   margin-top: 1rem;
 /* transition: all 0.4s; */
-
+animation: fadein linear 1.3s;
+-webkit-animation: fadeIn linear 1.3s;
   border-radius: 4px;
   padding: 5px;
 }
