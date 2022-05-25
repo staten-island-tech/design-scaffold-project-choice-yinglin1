@@ -14,7 +14,7 @@
 
 <body class="light">
   
-    {% include 'nav.njk'%}
+    {% include 'nav.njk' %}
     <section class="section-container, bigbox">
         <ul class="articles">
             {%- for post in collections.post -%}
@@ -29,9 +29,9 @@
            
             {%- endfor -%}
         </ul>
-           
+        <script type="module" src="../javascript/main.js"></script>
     </section>
-    <script type="module" src="./javascript/main.js"></script>  
+    
 </body>
 
 </html>
