@@ -34,7 +34,7 @@
 .btn:visited{
   text-transform: uppercase;
   text-decoration: none;
-  padding: 0.95rem 1.7rem;
+  padding: 0.8rem 1.7rem;
   display: inline-block;
   margin: 1rem;
   font-size:1rem;
@@ -81,57 +81,6 @@ p{
    font-weight: lighter;
    text-shadow: 2px 1.2px 0px rgb(116, 112, 112);
  }
-/* .buttons {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
-}
-
-.button {
-  width: 10%;
-  font-size: 1.2rem;
-  margin: 1rem;
-  background-color: #fff0f5;
-} */
-
-/* .container {
-  margin-top: 0rem;
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
-  justify-content: space-evenly;
-
-  text-align: center;
-}
- */
-/* .main {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
-  font-family: "Gochi Hand", cursive;
-} */
-/* .btn {
-  width: 10%;
-  font-size: 1.2rem;
-  margin-left: 1rem;
-}
-#balloons {
-  width: 10%;
-  font-size: 1.2rem;
-  margin: 1rem;
-  background-color: #fff0f5;
-
-}
-
-.theme-btn {
-  width: 3em;
-  height: 3em;
-  padding: 0.5em;
-  border-radius: 50%;
-  cursor: pointer;
-  border-color: var(--secondary-color);
-  background-color: transparent;
-} */
 
 .article{
   background-color: var(--secondary-color);
@@ -268,7 +217,7 @@ margin-top: -2rem;
     width: 20%;
     height: 100%;
     margin-top: -0.05rem;
-   
+    margin-right: 2rem;
 }
   
 
@@ -283,6 +232,7 @@ margin-top: -2rem;
   text-transform: uppercase;
   background-size: 240%;
   transition: all 0.4s;
+  margin-right: 2rem;
 }
 
 h2{
@@ -340,10 +290,29 @@ filter: blur(0.5rem);
    
   }
 
-/* @media screen and (max-width: 800px) {
+ @media screen and (max-width: 800px) {
+   .title{
+     font-size: 6rem;
+     margin-left: -2rem;
+     
+   }
+   h2{
+     font-size: 2rem;
+     margin-left: -2rem;
+     margin-top: 2rem;
+   }
   .article-text {
     font-size:2rem;
     text-align: center;
+  }
+  h3{
+    margin-right: 8rem;
+    font-size: 1rem;
+  }
+  .btn{
+    padding: 0.78rem 1rem;
+  font-size:1rem;
+  margin-left: -2rem;
   }
   .img-preview {
     width: 40rem;
@@ -358,18 +327,18 @@ border-color: var(--secondary-color);
 margin-top: 1rem;
   }
   .nav-item-desk{
-    font-size: 1.8rem;
+    font-size: 1.5rem;
     margin-right: 3.5rem;
     margin-left: -4rem;
   }
 .desk{
-  width: 99%;
+  width: 79%;
 }
   .home-img{
     justify-content: center;
     height: 30rem;
-    max-width:40rem;
-    margin-left: 4.3rem;
+    max-width:35rem;
+    margin-left: 2.5rem;
 object-fit: contain;
 display: flex;
 object-fit: cover;
@@ -386,13 +355,10 @@ object-fit: cover;
 .header-title{
   font-size: 2.5rem;
 }
-#balloons{
-  width: 23%;
-  font-size: 1.2rem;
-  margin: 1rem;
 }
-}
- 
+
+
+
 @media screen and (max-width: 600px) {
   .article-author{
     font-size: 1.5rem;
@@ -522,7 +488,7 @@ margin-bottom: 1.3rem;
     .title{
       margin-left: 1.5rem;
     }
-} */
+} 
  
 
 
