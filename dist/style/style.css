@@ -121,9 +121,14 @@ animation: fadein linear 1.3s;
  
   text-align: center;
   text-shadow: 6px 3px 0px #7A7A7A;
-  
+  animation: bounce 0.8s;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
 }
-
+@keyframes bounce { 
+  0% { transform: translateY(0); }
+  100% { transform: translateY(-34px); }
+}
 
 .article-author{
   color: var(--primary-color);
