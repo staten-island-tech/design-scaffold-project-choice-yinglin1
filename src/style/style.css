@@ -147,6 +147,7 @@ font-size: 4rem;
 text-shadow: 6px 3px 0px #7A7A7A;
 }
 
+
 .figure-image{
   width: 43rem;
   height: 33rem;
@@ -192,8 +193,21 @@ text-align: center;
 flex-wrap: wrap;
 justify-content: space-between;
 margin-top: -2rem;
-}
 
+        }
+
+        h3, h4{
+          animation: moveToRight 1s ease-in-out;
+            animation-delay: 8ms;
+        }
+        @keyframes moveToRight {
+          0% {
+              transform: translateX(-600rem);
+          }
+          100% {
+              transform: translateX(1rem);
+          }
+      }
 .desk{
   background-color: var(--secondary-color);
   width: 99.5%;
