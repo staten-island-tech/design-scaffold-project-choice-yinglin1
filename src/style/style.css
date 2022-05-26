@@ -269,7 +269,7 @@ filter: blur(0.5rem);
   font-family: "Mali", cursive;
   padding: 20px;
   text-align: center;
-  margin-top: -1rem;
+  margin-top: -0.2rem;
   margin-left: 2rem;
   animation: fadein linear 1.3s;
   -webkit-animation: fadeIn linear 1.3s;
