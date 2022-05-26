@@ -85,6 +85,7 @@ p{
 .article{
   background-color: var(--secondary-color);
   margin-left: -2rem;
+  
 }
 
 .img-preview {
@@ -98,8 +99,10 @@ p{
 /* transition: all 0.4s; */
 animation: fadein linear 1.3s;
 -webkit-animation: fadeIn linear 1.3s;
-  border-radius: 4px;
   padding: 5px;
+  border-color: var(--primary-color);
+  border-style:  dotted;
+  border-width: 0.5rem;
 }
 
 /* .img-preview:hover{
@@ -255,7 +258,7 @@ max-width: 100%;
 max-width: 100%;
 filter: blur(0.5rem);
   } 
-
+  
   .title {
    
   color: var(--primary-color);
