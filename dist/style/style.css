@@ -138,8 +138,8 @@ text-shadow: 6px 3px 0px #7A7A7A;
 }
 
 .figure-image{
-  width: 50rem;
-  height: 40rem;
+  width: 43rem;
+  height: 33rem;
   object-fit: cover;
   border-radius: 50rem;
   border-style: double;
@@ -247,6 +247,8 @@ h2{
   text-shadow: 4.5px 1.3px 0px var(--secondary-color);
 
 }
+
+
    .home-img{
 justify-content: center;
 max-width: 100%;
