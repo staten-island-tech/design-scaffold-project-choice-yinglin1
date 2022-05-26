@@ -9,7 +9,7 @@
 
 :root {
   --turquoise: #758e61;
-  --coral: #f2f8cb;
+  --coral: #e6eacd;
   --pink: #42586e;       
   --gray: #e3d4af;
 
@@ -121,7 +121,9 @@ animation: fadein linear 1.3s;
  
   text-align: center;
   text-shadow: 6px 3px 0px #7A7A7A;
+  
 }
+
 
 .article-author{
   color: var(--primary-color);
