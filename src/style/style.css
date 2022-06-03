@@ -24,8 +24,8 @@
   
 }
 .dark {
-  --primary-color: var(--pink);
-  --secondary-color: var(--gray);
+  --primary-color: var(--gray);
+  --secondary-color: var(--pink);
 
 }
 
