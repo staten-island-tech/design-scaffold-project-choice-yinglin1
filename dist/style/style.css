@@ -13,17 +13,17 @@
   --pink: #42586e;       
   --gray: #e3d4af;
 
-  --primary-color: var(--turquoise);
-  --secondary-color: var(--coral);
+  --primary-color: var(--pink);
+  --secondary-color: var(--gray);
 }
 
-.light {
+.dark {
   --primary-color: var(--turquoise);
   --secondary-color: var(--coral);
 
   
 }
-.dark {
+.light {
   --primary-color: var(--gray);
   --secondary-color: var(--pink);
 
